@@ -10,58 +10,67 @@ namespace abstractclasses
     {
         static void Main(string[] args)
         {
+            /* 
             Console.Write("Dog's name: ");
-            string dogName = Console.ReadLine();
+             string dogName = Console.ReadLine();
 
-            Console.Write("Dog's colour: ");
-            string dogColour = Console.ReadLine();
+             Console.Write("Dog's colour: ");
+             string dogColour = Console.ReadLine();
 
-            Console.Write("Dog's height (cm): ");
-            float dogHeight = float.Parse(Console.ReadLine());
+             Console.Write("Dog's age (year): ");
+             float dogAge = float.Parse(Console.ReadLine());
 
-            Console.Write("Dog's age (year): ");
-            float dogAge = float.Parse(Console.ReadLine());
+             Dog dog = new Dog()
+             {
+                 Name = dogName,
+                 Colour = dogColour,
+                 Age = dogAge
+             };
+             */
 
             Dog dog = new Dog()
             {
-                Name = dogName,
-                Colour = dogColour,
-                Height = dogHeight,
-                Age = dogAge
+                Name = "Bidu",
+                Colour = "Blue",
+                Age = 3
             };
 
             Console.WriteLine(dog.Name);
             Console.WriteLine(dog.Colour);
-            Console.WriteLine(dog.Height);
             Console.WriteLine(dog.Age);
-            Console.WriteLine(dog.Eat());
+            dog.Eat();
 
-            Console.Write("Dog's name: ");
+            /*
+            Console.Write("Cat's name: ");
             string catName = Console.ReadLine();
 
-            Console.Write("Dog's colour: ");
+            Console.Write("Cat's colour: ");
             string catColour = Console.ReadLine();
 
-            Console.Write("Dog's height (cm): ");
-            float catHeight = float.Parse(Console.ReadLine());
-
-            Console.Write("Dog's age (year): ");
+            Console.Write("Cat's age (year): ");
             float catAge = float.Parse(Console.ReadLine());
 
             Cat cat = new Cat()
             {
                 Name = catName,
                 Colour = catColour,
-                Height = catHeight,
                 Age = catAge
+            };
+            */
+
+            Cat cat = new Cat()
+            {
+                Name = "Mingau",
+                Colour = "White",
+                Age = 4
             };
 
             Console.WriteLine(cat.Name);
             Console.WriteLine(cat.Colour);
-            Console.WriteLine(cat.Height);
             Console.WriteLine(cat.Age);
-            Console.WriteLine(cat.Eat());
+            cat.Eat();
         }
     }
 
 }
+

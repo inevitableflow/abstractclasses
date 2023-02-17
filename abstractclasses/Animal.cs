@@ -10,7 +10,6 @@ namespace abstractclasses
     {
         public string Name { get; set; }
         public string Colour { get; set; }
-        public float Height { get; set; }
         public float Age { get; set; }
 
 
