@@ -8,11 +8,13 @@ namespace abstractclasses
 {
     public abstract class Animal
     {
-        string Name { get; set; }
-        string Colour { get; set; }
-        int Age { get; set; }
+        public string Name { get; set; }
+        public string Colour { get; set; }
+        public float Height { get; set; }
+        public float Age { get; set; }
 
-        internal abstract void Eat();
+
+        public abstract void Eat();
 
     }
 
