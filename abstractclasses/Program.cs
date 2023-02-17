@@ -6,17 +6,11 @@ using System.Threading.Tasks;
 
 namespace abstractclasses
 {
-    public abstract class Animal
+    public abstract class Program
     {
         static void Main(string[] args)
         {
         }
-        string Name { get; set; }
-        string Colour { get; set; }
-        int Age { get; set; }
-
-        internal abstract void Eat();
-
     }
 
 }
